@@ -1,0 +1,66 @@
+[env]
+	WINIT_X11_SCALE_FACTOR = "1.0"
+[window]
+
+	dimensions = { columns = 110, lines = 35 }
+	padding = { x = 10, y = 10 }
+	opacity = 0.95
+	decorations = "full"
+	startup_mode = "Windowed"
+	dynamic_title = true
+
+[scrolling]
+
+	history = 10000
+	multiplier = 3
+
+[cursor]
+
+	style = { shape = "Block", blinking = "On" }
+  	unfocused_hollow = false
+
+[colors.primary]
+
+	background = "#24273A"
+	foreground = "#CAD3F5"
+	dim_foreground = "#CAD3F5"
+	bright_foreground = "#CAD3F5"
+
+[colors.normal]
+
+	black = "#494D64"
+	red = "#ED8796"
+	green = "#A6DA95"
+	yellow = "#EED49F"
+	blue = "#8AADF4"
+	magenta = "#F5BDE6"
+	cyan = "#8BD5CA"
+	white = "#B8C0E0"
+
+[colors.bright]
+
+	black = "#494D64"
+	red = "#ED8796"
+	green = "#A6DA95"
+	yellow = "#EED49F"
+	blue = "#8AADF4"
+	magenta = "#F5BDE6"
+	cyan = "#8BD5CA"
+	white = "#A5ADCB"
+
+[colors.dim]
+
+	black = "#494D64"
+	red = "#ED8796"
+	green = "#A6DA95"
+	yellow = "#EED49F"
+	blue = "#8AADF4"
+	magenta = "#F5BDE6"
+	cyan = "#8BD5CA"
+	white = "#B8C0E0"
+[font]
+	normal = { family = "FiraCode Nerd Font Mono", style = "regular" }
+	bold = { family = "FiraCode Nerd Font Mono", style = "bold" }
+	italic = { family = "FiraCode Nerd Font Mono", style = "italic" }
+	bold_italic = { family = "FiraCode Nerd Font Mono", style = "bold_italic" }
+	size = 12
