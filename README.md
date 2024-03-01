@@ -1,3 +1,4 @@
 # bspwm config
 
-alacritty edit to new .toml format
+
+## alacritty edit to toml. format
