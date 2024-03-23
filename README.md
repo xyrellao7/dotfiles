@@ -1,3 +1,3 @@
 # bspwm config
 
-## alacritty edit to toml. format
+alacritty edit to toml. format
